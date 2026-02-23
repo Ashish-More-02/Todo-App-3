@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router";
-
+import { Button } from "./components/ui/button";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,6 +19,8 @@ function App() {
         Login
       </NavLink>
       </button>
+
+      <Button variant="outline" size="lg"> 👋 Hello world</Button>
     </div>
   );
 }
