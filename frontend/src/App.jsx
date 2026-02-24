@@ -16,6 +16,7 @@ function App() {
 
   return (
     <div className="h-screen">
+      {/* This app component acts as a landing page, and all others are individual pages */}
       <Index></Index>
     </div>
   );
